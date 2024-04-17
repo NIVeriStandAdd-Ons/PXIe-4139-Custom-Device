@@ -6,7 +6,7 @@
 
 ### LabVIEW Version ###
 
-LabVIEW 2023
+LabVIEW 2023 Q3
 
 ### Built Availability ###
 
