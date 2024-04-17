@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>National Instruments::PXIe-4139 SMU</eng>
+		<loc>National Instruments::PXIe-4139 SMU</loc>
+	</AddMenu>
+	<Version>1.0</Version>
+	<Type>Asynchronous</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>840c82ea-ae12-4c39-8450-d70da7ed9c17</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\PXIe-4139\PXIe-4139 Configuration.llb\PXIe-4139 Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\PXIe-4139\PXIe-4139 Engine.llb\PXIe-4139 RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\PXIe-4139\PXIe-4139 Engine.llb\PXIe-4139 RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\PXIe-4139\Linux_x64\Engine Linux64.llb\PXIe-4139 RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\PXIe-4139\Linux_x64\Engine Linux64.llb\PXIe-4139 RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>PXIe-4139</eng>
+				<loc>PXIe-4139</loc>
+			</Name>
+			<GUID>840c82ea-ae12-4c39-8450-d70da7ed9c17</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\pxi chassis small.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\PXIe-4139\PXIe-4139 Configuration.llb\PXIe-4139 Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>15be71f1-4ed6-4157-8e9b-7a18394f798a</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\PXIe-4139\PXIe-4139 Configuration.llb\EnableDisable Main Page.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>PXIe-4139</eng>
+				<loc>PXIe-4139</loc>
+			</Name>
+			<GUID>98f307ac-acbe-4691-be32-87a99e80eb4e</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\daq device_disabled.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\PXIe-4139\PXIe-4139 Configuration.llb\PXIe-4139 Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>15be71f1-4ed6-4157-8e9b-7a18394f798a</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\PXIe-4139\PXIe-4139 Configuration.llb\EnableDisable Main Page.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Selection Page</eng>
+				<loc>Channel Selection Page</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>8297dcce-9ba9-454d-a096-90037a275c0f</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\PXIe-4139\PXIe-4139 Configuration.llb\PXIe-4139 Channel Section Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Page</eng>
+				<loc>Channel Page</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>575fa598-18ce-4d13-bf4d-a78379921578</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\PXIe-4139\PXIe-4139 Configuration.llb\PXIe-4139 Input Channel Page.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy />
+	</CustomXML>
+</CustomDevice>

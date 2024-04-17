@@ -1,0 +1,1 @@
+If this custom device is used to control the PXIe-4112, please check the PXIe-4112? in the Main page. If it is used for the PXIe-4113, please don't check the PXIe-4112? in the Main page.
