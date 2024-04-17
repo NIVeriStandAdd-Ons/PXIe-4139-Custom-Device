@@ -20,7 +20,7 @@ Not all features of the 4139 are exposed. Some aspects of the custom device are 
 
 ### Dependencies ###
 
-NI-DC Power
+NI-DCPower
 
 ### License ###
 
